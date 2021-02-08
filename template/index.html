@@ -8,6 +8,11 @@
   <h1>
     Home Page!
   </h1>
+  {% for _ in range(10) %}
+  {% if x % 2 == 1 %}
+  <p>Hello</p>
+  {% endif %}
+  {% endfor %}
   <p>
     {{content}}
   </p>
